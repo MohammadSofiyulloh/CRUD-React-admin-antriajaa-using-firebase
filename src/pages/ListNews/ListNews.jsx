@@ -1,16 +1,16 @@
-import './ListEvents.scss';
+import './ListNews.scss';
 import Sidebar from '../../components/sidebar/Sidebar';
-import DataEvents from '../../components/dataEventsList/DataEvents';
+import DataNews from '../../components/dataNews/DataNews';
 
-const ListEvents = () => {
+const ListNews = () => {
   return (
     <div className="list">
       <Sidebar />
       <div className="listContainer">
-        <DataEvents />
+        <DataNews />
       </div>
     </div>
   );
 };
 
-export default ListEvents;
+export default ListNews;
